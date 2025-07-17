@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/Outfit/Outfit-Regular.ttf'),
+        url('/assets/fonts/Outfit/Outfit-Light.ttf'),
+        url('/assets/fonts/Outfit/Outfit-Medium.ttf'),
+        url('/assets/fonts/Outfit/Outfit-SemiBold.ttf'),
+        url('/assets/fonts/Outfit/Outfit-Bold.ttf'),
+        url('/assets/fonts/Outfit/Outfit-ExtraBold.ttf');
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/* General */
+.cursor-pointer {
+    cursor: pointer;
+}
