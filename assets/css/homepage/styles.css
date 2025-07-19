@@ -10,8 +10,20 @@
 
 * {
     font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
+:root {
+    /* Colors */
+    --background-clr: rgb(14, 19, 26);
+}
+
+body {
+    background-color:  var(--background-clr);
+}
 
 /* General */
 .cursor-pointer {
