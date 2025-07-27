@@ -1,6 +1,10 @@
 # PapiChans - Portfolio V3
 
 ---
+
+## 0.0.4 - July 27, 2025
+- Add Navbar Category
+
 ## 0.0.3 - July 22, 2025
 - Add Font Awesome CDN
 - Add Navigation Bar Layout
