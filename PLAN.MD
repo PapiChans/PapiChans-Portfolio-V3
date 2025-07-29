@@ -2,7 +2,9 @@
 
 1. Home
    - Overviews
-   - 
+   - greetings
+   - invented quote
+   - what am i doing
 2. About
    - Short Introduction
    - Education
