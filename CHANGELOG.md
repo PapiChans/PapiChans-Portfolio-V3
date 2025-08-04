@@ -2,6 +2,9 @@
 
 ---
 
+## v0.0.5 - August 4, 2025
+- Add Sidebar Content
+
 ## v0.0.4.1 - July 29, 2025
 - Add Plan
 
