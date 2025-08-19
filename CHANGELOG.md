@@ -2,6 +2,9 @@
 
 ---
 
+## v0.0.6 - August 19, 2025
+- Add Sidebar Function
+
 ## v0.0.5 - August 4, 2025
 - Add Sidebar Content
 

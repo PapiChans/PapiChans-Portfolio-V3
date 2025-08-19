@@ -25,4 +25,29 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 // Navbar Theme End
+
+// Sidebar Function Start
+  const openSidebarBtn = document.getElementById('openSidebar');
+  const closeSidebarBtn = document.getElementById('closeSidebar');
+  const sidebarMenu = document.getElementById('sidebarMenu');
+  const sidebarShadow = document.getElementById('sidebarShadow');
+  const sidebarItems = document.querySelectorAll('.sidebar-list-item');
+
+  openSidebarBtn.addEventListener('click', () => {
+      sidebarMenu.classList.add('active');
+      sidebarShadow.classList.add('active');
+  });
+
+  closeSidebarBtn.addEventListener('click', closeSidebar);
+
+  sidebarItems.forEach(item => {
+    item.addEventListener('click', closeSidebar);
+  });
+
+  function closeSidebar() {
+      sidebarMenu.classList.remove('active');
+      sidebarShadow.classList.remove('active');
+  }
+
+// Sidebar Function End
 });

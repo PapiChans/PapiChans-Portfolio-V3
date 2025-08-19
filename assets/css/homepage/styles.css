@@ -183,6 +183,16 @@ body {
         position: fixed;
         background-color: var(--sidebar-shadow);
         z-index: 3;
+
+        /* For Function */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .sidebar-shadow.active {
+        opacity: 1;
+        visibility: visible;
     }
 
     .sidebar-menu {
@@ -193,6 +203,14 @@ body {
         background-color: var(--second-card-clr);
         z-index: 4;
         box-shadow: var(--sidebar-inset);
+
+        /* For Function */
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .sidebar-menu.active {
+        transform: translateX(0);
     }
 
     .sidebar {
@@ -232,7 +250,6 @@ body {
         width: 100%;
         height: 3.2rem;
         margin-left: 1rem;
-        margin-right: 1rem;
         display: flex;
         align-items: center;
         font-size: 17px;
@@ -248,9 +265,10 @@ body {
     }
     
     .sidebar-list-item-icon {
-        margin-right: 1.5rem;
+        margin-right: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 1em;
     }
 }
