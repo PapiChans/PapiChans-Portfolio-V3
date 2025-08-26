@@ -2,6 +2,9 @@
 
 ---
 
+## v0.0.7 - August 26, 2025
+- Improve Sidebar and Responsive
+
 ## v0.0.6 - August 19, 2025
 - Add Sidebar Function
 

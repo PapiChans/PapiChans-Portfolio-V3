@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   closeSidebarBtn.addEventListener('click', closeSidebar);
 
+  sidebarShadow.addEventListener('click', closeSidebar);
+
   sidebarItems.forEach(item => {
     item.addEventListener('click', closeSidebar);
   });
