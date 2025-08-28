@@ -2,6 +2,9 @@
 
 ---
 
+## v0.0.8 - August 28, 2025
+- Add Sidebar Background color hover 
+
 ## v0.0.7 - August 26, 2025
 - Improve Sidebar and Responsive
 
