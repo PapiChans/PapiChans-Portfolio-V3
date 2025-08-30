@@ -2,6 +2,10 @@
 
 ---
 
+## v0.0.9 - August 30, 2025
+- Removed Navbar Box Shadow
+- Add Sample cards for the Content 
+
 ## v0.0.8 - August 28, 2025
 - Add Sidebar Background color hover 
 
