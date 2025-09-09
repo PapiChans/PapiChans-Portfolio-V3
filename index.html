@@ -40,31 +40,31 @@
             </div>
             <div class="sidebar-place-content">
                 <ul class="sidebar-category-list">
-                    <li class="sidebar-list-item">
+                    <li class="sidebar-list-item" data-target="home">
                         <div class="sidebar-list-item-icon">
                             <i class="fa-solid fa-house-chimney"></i>
                         </div>
                         Home
                     </li>
-                    <li class="sidebar-list-item">
+                    <li class="sidebar-list-item" data-target="about">
                         <div class="sidebar-list-item-icon">
                             <i class="fa-solid fa-user-tie"></i>
                         </div>
                         About
                     </li>
-                    <li class="sidebar-list-item">
+                    <li class="sidebar-list-item" data-target="skills">
                         <div class="sidebar-list-item-icon">
                             <i class="fa-solid fa-toolbox"></i>
                         </div>
                         Skills
                     </li>
-                    <li class="sidebar-list-item">
+                    <li class="sidebar-list-item" data-target="projects">
                         <div class="sidebar-list-item-icon">
                             <i class="fa-solid fa-computer"></i>
                         </div>
                         Projects
                     </li>
-                    <li class="sidebar-list-item">
+                    <li class="sidebar-list-item" data-target="others">
                         <div class="sidebar-list-item-icon">
                             <i class="fa-solid fa-gears"></i>
                         </div>
@@ -77,29 +77,39 @@
     <div class="navbar-menu">
         <div class="navbar-menu-content">
             <ul class="navbar-category-list">
-                <li class="navbar-category-list-item">Home</li>
-                <li class="navbar-category-list-item">About</li>
-                <li class="navbar-category-list-item">Skills</li>
-                <li class="navbar-category-list-item">Projects</li>
-                <li class="navbar-category-list-item">Others</li>
+                <li class="navbar-category-list-item" data-target="home">Home</li>
+                <li class="navbar-category-list-item" data-target="about">About</li>
+                <li class="navbar-category-list-item" data-target="skills">Skills</li>
+                <li class="navbar-category-list-item" data-target="projects">Projects</li>
+                <li class="navbar-category-list-item" data-target="others">Others</li>
             </ul>
         </div>
     </div>
     <div class="main-body">
-        <div class="main-card" id="card-home">
-            <h1>Home</h1>
+        <div class="main-card active" id="card-home">
+            <div class="main-card-content">
+                <h1>Home</h1>
+            </div>
         </div>
         <div class="main-card" id="card-about">
-            <h1>About</h1>
+            <div class="main-card-content">
+                <h1>About</h1>
+            </div>
         </div>
-        <div class="main-card" id="card-skils">
-            <h1>Skills</h1>
+        <div class="main-card" id="card-skills">
+            <div class="main-card-content">
+                <h1>Skills</h1>
+            </div>
         </div>
         <div class="main-card" id="card-projects">
-            <h1>Projects</h1>
+            <div class="main-card-content">
+                <h1>Projects</h1>
+            </div>
         </div>
         <div class="main-card" id="card-others">
-            <h1>Others</h1>
+            <div class="main-card-content">
+                <h1>Others</h1>
+            </div>
         </div>
     </div>
 </body>

@@ -2,6 +2,9 @@
 
 ---
 
+## v0.0.9.1 - September 9, 2025
+- Initiate Function for Card Switching (Incomplete)
+
 ## v0.0.9 - August 30, 2025
 - Removed Navbar Box Shadow
 - Add Sample cards for the Content 

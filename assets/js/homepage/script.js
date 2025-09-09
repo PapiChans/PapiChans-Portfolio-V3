@@ -52,4 +52,40 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 // Sidebar Function End
+
+// Active Section Start
+  const navItems = document.querySelectorAll('.navbar-category-list-item');
+  const sideItems = document.querySelectorAll('.sidebar-list-item');
+  const allCards = document.querySelectorAll('.main-card');
+
+  function activateSection(sectionId) {
+    const targetCardId = `card-${sectionId}`;
+    const currentCard = document.querySelector('.main-card.active');
+    const nextCard = document.getElementById(targetCardId);
+
+    if (currentCard === nextCard) return;
+
+    if (currentCard) {
+        currentCard.classList.remove('active');
+    }
+
+    setTimeout(() => {
+        nextCard.classList.add('active');
+    }, 50);
+  }
+
+  navItems.forEach(item => {
+      item.addEventListener('click', () => {
+          const target = item.getAttribute('data-target');
+          activateSection(target);
+      });
+  });
+
+  sideItems.forEach(item => {
+      item.addEventListener('click', () => {
+          const target = item.getAttribute('data-target');
+          activateSection(target);
+      });
+  });
+
 });
