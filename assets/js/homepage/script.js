@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(() => {
         nextCard.classList.add('active');
-    }, 50);
+    }, 0);
   }
 
   navItems.forEach(item => {

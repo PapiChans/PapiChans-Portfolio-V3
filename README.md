@@ -6,7 +6,7 @@
 | ------------------- | --------------------|
 | **Description**     | A more dynamic, modern and improved Portfolio...Showcasing my skills and progress as the time passes |
 | **Project Duration**    | July 17, 2025 - In Progress |
-| **Current Version** | v0.0.9.1 | 
+| **Current Version** | v0.0.9.2 | 
 
 
 ## Technologies Used for this Application

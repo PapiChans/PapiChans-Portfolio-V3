@@ -2,6 +2,9 @@
 
 ---
 
+## v0.0.9.2 - September 11, 2025
+- Initiate Function for Card Switching (Attempt 2)
+
 ## v0.0.9.1 - September 9, 2025
 - Initiate Function for Card Switching (Incomplete)
 
