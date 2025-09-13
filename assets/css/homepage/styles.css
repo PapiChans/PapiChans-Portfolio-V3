@@ -46,6 +46,27 @@ body.light {
     --box-shadow: 0 1px 2px rgba(20, 45, 59, 0.1);
 }
 
+/*Typography*/
+.fs-15 {
+    font-size: 15px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+.text-primary {
+    color: var(--icon-clr);
+    line-height: 1.5rem;
+    letter-spacing: .6px;
+}
 
 body {
     background-color:  var(--second-card-clr);
@@ -176,7 +197,7 @@ body {
     color: var(--icon-clr);
     background-color: var(--main-card-clr);
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: .5rem;
 }
 
 .main-card.active {
@@ -184,6 +205,63 @@ body {
 }
 
 .main-card-content {
+    display: block;
+}
+
+
+/* 
+===========================
+HOME CONTENT RELATED
+=========================== 
+*/
+
+.home-cover {
+    width: 100%;
+    position: relative;
+    padding-top: 15%;
+    border-radius: 5px;
+    overflow: visible;
+    background-color: var(--background-clr);
+}
+
+.home-cover-photo {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('/assets/images/content/cover.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.profile-picture {
+    position: absolute;
+    bottom: clamp(-20%, -35%, -20%);
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 16vw;
+    height: 16vw;
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 70px;
+    min-height: 70px;
+
+    background-color: #4A90E2;
+    border-radius: 50%;
+    border: 4px solid var(--main-card-clr);
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    z-index: 2;
+
+    background-image: url('/assets/images/content/profile.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home-cover-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -302,5 +380,9 @@ body {
     /* Main Content */
     .main-body {
         padding: 6rem 2rem 0 2rem;
+    }
+
+    .profile-picture {
+        bottom: clamp(-50%, -35%, -20%);
     }
 }

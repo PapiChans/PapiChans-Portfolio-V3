@@ -2,6 +2,10 @@
 
 ---
 
+## v0.0.10 - September 13, 2025
+- Initiate Function for Card Switching (Complete)
+- Add Cover Photo for the Home Content
+
 ## v0.0.9.2 - September 11, 2025
 - Initiate Function for Card Switching (Attempt 2)
 

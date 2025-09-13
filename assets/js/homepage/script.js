@@ -88,4 +88,21 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 
+  // Active Function End
+
+  // Profile Picture Start
+  const profilePic = document.querySelector(".profile-picture");
+  const content = document.querySelector(".home-cover-content");
+
+    function adjustPadding() {
+        const profileHeight = profilePic.offsetHeight;
+        content.style.paddingTop = (profileHeight / 2.5) + "px"; // half the height
+    }
+
+    adjustPadding();
+
+    window.addEventListener("resize", adjustPadding);
+
+  // Profile Picture End
+
 });
