@@ -47,8 +47,8 @@ body.light {
 }
 
 /*Typography*/
-.fs-14 {
-    font-size: 14px;
+.fs-18 {
+    font-size: 18px;
 }
 
 .fs-16 {
@@ -70,7 +70,19 @@ body.light {
 .text-primary {
     color: var(--icon-clr);
     line-height: 1.5rem;
-    letter-spacing: .6px;
+    letter-spacing: .1px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
 }
 
 /*Spaces*/
@@ -265,7 +277,7 @@ HOME CONTENT RELATED
     border-radius: 50%;
     border: 4px solid var(--main-card-clr);
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
-    z-index: 2;
+    z-index: 1;
 
     background-image: url('/assets/images/content/profile.jpg');
     background-size: cover;

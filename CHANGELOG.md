@@ -2,6 +2,9 @@
 
 ---
 
+## v0.0.12 - September 18, 2025
+- Add Introduction and Personal Quote
+
 ## v0.0.11 - September 16, 2025
 - Add Home Basic Card
 
