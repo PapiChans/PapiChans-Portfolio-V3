@@ -299,6 +299,11 @@ HOME CONTENT RELATED
     padding: 1rem;
     display: block;
     margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.home-basic-card:hover {
+    background-color: var(--second-card-clr);
 }
 
 @media only screen and (max-width: 768px) {

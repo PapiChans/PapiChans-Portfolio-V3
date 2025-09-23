@@ -2,6 +2,10 @@
 
 ---
 
+## v0.0.13 - September 23, 2025
+- Add "What am I doing?" Card
+- Install AOS Library 
+
 ## v0.0.12 - September 18, 2025
 - Add Introduction and Personal Quote
 

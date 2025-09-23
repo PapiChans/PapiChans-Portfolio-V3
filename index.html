@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/assets/css/homepage/styles.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -86,7 +88,7 @@
         </div>
     </div>
     <div class="main-body">
-        <div class="main-card active" id="card-home">
+        <div class="main-card active" id="card-home" data-aos="fade-down" data-aos-duration="1500">
             <div class="main-card-content">
                 <div class="home-cover">
                     <div class="home-cover-photo"></div>
@@ -97,7 +99,7 @@
                     <p class="fs-14 fw-normal text-primary">IT Programmer Specialist</p>
                 </div>
             </div>
-            <div class="home-basic-card">
+            <div class="home-basic-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
                 <h5 class="fs-16 fw-bold text-primary mb-05">Introduction</h5>
                 <p class="fs-14 fw-normal text-primary text-justify">
                     Hi, my name is Christian, just an average IT Programmer passing by, living a simple
@@ -108,8 +110,13 @@
                     being an IT People.
                 </p>
             </div>
-            <div class="home-basic-card">
+            <div class="home-basic-card" data-aos="fade-up" data-aos-duration="1000">
                 <h5 class="fs-16 fw-bold text-primary mb-05">Personal Quote</h5>
+                <p class="fs-18 fw-bold text-primary text-center">I'm not good at Programming but I can debug your feeling.</p>
+                <p class="fs-14 fw-normal text-primary text-center">- Christian A. ,2024</p>
+            </div>
+            <div class="home-basic-card" data-aos="fade-up" data-aos-duration="1000">
+                <h5 class="fs-16 fw-bold text-primary mb-05">What am I doing?</h5>
                 <p class="fs-18 fw-bold text-primary text-center">I'm not good at Programming but I can debug your feeling.</p>
                 <p class="fs-14 fw-normal text-primary text-center">- Christian A. ,2024</p>
             </div>
@@ -136,5 +143,10 @@
         </div>
     </div>
 </body>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="/assets/js/homepage/script.js"></script>
 </html>
