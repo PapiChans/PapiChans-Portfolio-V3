@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+// Auto scroll on top whenever the page is loaded
+window.onbeforeunload = function () {
+  window.scrollTo(0,0);
+};
+
 // Navbar Theme Start
   const themeToggle = document.querySelector('.navbar-icon i.fa-moon');
 

@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.0 - September 27, 2025
+- Completed Home Tab Content
+
 ## v0.0.13 - September 23, 2025
 - Add "What am I doing?" Card
 - Install AOS Library 

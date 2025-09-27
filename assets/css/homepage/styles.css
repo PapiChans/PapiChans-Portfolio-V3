@@ -22,6 +22,7 @@
     --main-card-clr: rgb(27, 36, 53);
     --second-card-clr: rgb(17, 27, 46);
     --icon-clr: rgb(192, 192, 192);
+    --text2-clr: rgb(145, 143, 143);
     --icon-clr-hover: rgb(40, 53, 75);
     --text-clr-hover: rgb(238, 238, 238);
     --sidebar-bg-hover: rgb(25, 39, 66);
@@ -35,9 +36,10 @@
 /* LIGHT THEME */
 body.light {
     --background-clr: rgb(230, 230, 230);
-    --main-card-clr: rgb(250, 250, 250);
+    --main-card-clr: rgb(221, 219, 219);
     --second-card-clr: rgb(224, 226, 228);
     --icon-clr: rgb(30, 30, 30);
+    --text2-clr:rgb(77, 77, 77);
     --icon-clr-hover: rgb(230, 230, 230);
     --text-clr-hover: rgb(0, 77, 150);
     --sidebar-bg-hover: rgb(211, 211, 211);
@@ -83,6 +85,12 @@ body.light {
 
 .text-end {
     text-align: end;
+}
+
+.text-secondary {
+    color: var(--text2-clr);
+    line-height: 1.5rem;
+    letter-spacing: .1px;
 }
 
 /*Spaces*/
@@ -306,6 +314,41 @@ HOME CONTENT RELATED
     background-color: var(--second-card-clr);
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
+
+.home-second-card {
+    width: 100%;
+    min-height: 300px;
+    background-color: var(--main-card-clr);
+    padding: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.home-second-card-icon-box {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-second-card-icon {
+    font-size: 40px;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+.home-second-card:hover {
+    background-color: var(--icon-clr-hover);
+}
+
 @media only screen and (max-width: 768px) {
 
     /* Navbar */
@@ -425,5 +468,33 @@ HOME CONTENT RELATED
 
     .profile-picture {
         bottom: clamp(-50%, -35%, -20%);
+    }
+
+    /* 
+    ===========================
+    HOME CONTENT RELATED
+    =========================== 
+    */
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 7px;
+        grid-row-gap: 7px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* 
+    ===========================
+    HOME CONTENT RELATED
+    =========================== 
+    */
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
     }
 }
