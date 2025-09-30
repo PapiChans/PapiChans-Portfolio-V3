@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.1 - September 30, 2025
+- Add Short Introduction Content
+
 ## v0.1.0 - September 27, 2025
 - Completed Home Tab Content
 
