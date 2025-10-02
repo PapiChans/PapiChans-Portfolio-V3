@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.2 - October 2, 2025
+- Add Short Introduction Content
+
 ## v0.1.1 - September 30, 2025
 - Add Short Introduction Content
 
