@@ -349,6 +349,23 @@ HOME CONTENT RELATED
     background-color: var(--icon-clr-hover);
 }
 
+/* 
+===========================
+ABOUT CONTENT RELATED
+=========================== 
+*/
+
+.about-we-card {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-we-card-item {
+    width: 100%;
+    min-height: 200px;
+}
+
 @media only screen and (max-width: 768px) {
 
     /* Navbar */

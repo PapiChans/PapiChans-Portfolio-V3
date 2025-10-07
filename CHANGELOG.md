@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.2.1 - October 7, 2025
+- Add Work Experiences Space
+
 ## v0.1.2 - October 2, 2025
 - Add Short Introduction Content
 
