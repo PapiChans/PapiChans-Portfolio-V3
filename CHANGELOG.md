@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.2.2 - October 9, 2025
+- Add Circle and Indent to the Work Experience Card
+
 ## v0.1.2.1 - October 7, 2025
 - Add Work Experiences Space
 

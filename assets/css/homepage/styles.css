@@ -364,6 +364,36 @@ ABOUT CONTENT RELATED
 .about-we-card-item {
     width: 100%;
     min-height: 200px;
+    display: flex;
+}
+
+.about-we-card-item-indent-section {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-we-card-item-content-section {
+    width: 100%;
+    display: block;
+    padding: .25rem;
+}
+
+.we-circle {
+    height: 30px;
+    width: 30px;
+    border: 5px solid var(--icon-clr);
+    border-radius: 100%;
+}
+
+.we-indent {
+    width: 3px;
+    height: 100%;
+    background-color: var(--icon-clr);
+    border-radius: 8px;
+
 }
 
 @media only screen and (max-width: 768px) {
