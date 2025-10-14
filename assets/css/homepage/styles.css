@@ -373,7 +373,7 @@ ABOUT CONTENT RELATED
 
 .about-we-card-item {
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     display: flex;
 }
 
@@ -388,7 +388,8 @@ ABOUT CONTENT RELATED
 .about-we-card-item-content-section {
     width: 100%;
     display: block;
-    padding: .25rem;
+    margin-top: -.25rem;
+    margin-bottom: 1rem;
 }
 
 .we-circle {

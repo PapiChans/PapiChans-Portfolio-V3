@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.3.1 - October 14, 2025
+- Small Improvement on Work Experience Content
+
 ## v0.1.3 - October 11, 2025
 - Complete Job Experiences Content
 
