@@ -2,6 +2,10 @@
 
 ---
 
+## v0.1.4 - October 16, 2025
+- Add Content for Education
+- Import all the needed Image assets
+
 ## v0.1.3.1 - October 14, 2025
 - Small Improvement on Work Experience Content
 
