@@ -592,4 +592,23 @@ ABOUT CONTENT RELATED
         grid-column-gap: 5px;
         grid-row-gap: 5px;
     }
+
+    /* 
+    ===========================
+    ABOUT CONTENT RELATED
+    =========================== 
+    */
+
+    .about-edu-item {
+        display: block;
+    }
+
+    .about-edu-item-pic-area {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+
 }

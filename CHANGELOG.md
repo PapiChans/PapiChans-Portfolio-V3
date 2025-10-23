@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.4.1 - October 23, 2025
+- Add Style Responsive for Education Area
+
 ## v0.1.4 - October 16, 2025
 - Add Content for Education
 - Import all the needed Image assets
