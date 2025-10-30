@@ -610,5 +610,9 @@ ABOUT CONTENT RELATED
         margin-bottom: 1rem;
     }
 
+    .about-edu-item-content-area {
+        margin-left: 0;
+    }
+
 
 }

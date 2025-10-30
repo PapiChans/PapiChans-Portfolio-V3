@@ -2,6 +2,9 @@
 
 ---
 
+## v0.1.4.2 - October 30, 2025
+- Remove Margin Left for Education Aread
+
 ## v0.1.4.1 - October 23, 2025
 - Add Style Responsive for Education Area
 
