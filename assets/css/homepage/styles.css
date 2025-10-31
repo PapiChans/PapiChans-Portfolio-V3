@@ -16,6 +16,11 @@
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 :root {
     /* Colors */
     --background-clr: rgb(21, 30, 48);
@@ -444,6 +449,59 @@ ABOUT CONTENT RELATED
     margin-left: 1rem;
 }
 
+.about-info-content-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.about-info-item {
+    height: auto;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.about-info-item:hover {
+    height: auto;
+    width: 100%;
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.about-info-box {
+    width: 100%;
+    height: 70px;
+    background-color: var(--main-card-clr);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.about-info-icon-area {
+    width: 50px;
+    height: 50px;
+    background-color: var(--second-card-clr);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--text2-clr);
+}
+
+.about-info-item-content{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 1rem;
+}
+
+
 @media only screen and (max-width: 768px) {
 
     /* Navbar */
@@ -577,6 +635,10 @@ ABOUT CONTENT RELATED
         grid-column-gap: 7px;
         grid-row-gap: 7px;
     }
+
+    .about-info-content-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -612,6 +674,10 @@ ABOUT CONTENT RELATED
 
     .about-edu-item-content-area {
         margin-left: 0;
+    }
+
+    .about-info-content-area {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 

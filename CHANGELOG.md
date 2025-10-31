@@ -2,6 +2,10 @@
 
 ---
 
+## v0.1.5 - October 31, 2025
+- Personal and Contact Content Finshed
+- About Category Finished
+
 ## v0.1.4.2 - October 30, 2025
 - Remove Margin Left for Education Aread
 
