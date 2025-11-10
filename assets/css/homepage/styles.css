@@ -494,10 +494,19 @@ ABOUT CONTENT RELATED
 
 .about-info-item-content{
     height: 50px;
-    width: 150px;
+    width: 170px;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    margin-left: 1rem;
+}
+
+.about-info-item-content-2{
+    height: 50px;
+    width: 170px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
     margin-left: 1rem;
 }
 

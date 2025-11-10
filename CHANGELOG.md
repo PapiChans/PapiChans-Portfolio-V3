@@ -2,6 +2,9 @@
 
 ---
 
+## v0.2.0 - November 10, 2025
+- Skill Content Finished
+
 ## v0.1.5.1 - November 4, 2025
 - Personal and Contact Content Finshed
 
