@@ -2,6 +2,9 @@
 
 ---
 
+## v0.2.1 - November 20, 2025
+- Add Other Skills
+
 ## v0.2.0 - November 10, 2025
 - Skill Content Finished
 
