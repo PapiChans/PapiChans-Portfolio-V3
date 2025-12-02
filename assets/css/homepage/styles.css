@@ -514,6 +514,34 @@ ABOUT CONTENT RELATED
     margin-left: 1.5rem;
 }
 
+/* 
+===========================
+PROJECT CONTENT RELATED
+=========================== 
+*/
+
+.project-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.project-item {
+    height: 350px;
+    width: 100%;
+    background-color: var(--second-card-clr);
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    padding: 1rem;
+}
+
+.project-item:hover {
+    transform: scale(0.98);
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -652,6 +680,16 @@ ABOUT CONTENT RELATED
     .about-info-content-area {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* 
+    ===========================
+    PROJECT CONTENT RELATED
+    =========================== 
+    */
+
+    .project-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -690,6 +728,16 @@ ABOUT CONTENT RELATED
     }
 
     .about-info-content-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* 
+    ===========================
+    PROJECT CONTENT RELATED
+    =========================== 
+    */
+
+    .project-area {
         grid-template-columns: repeat(1, 1fr);
     }
 

@@ -2,6 +2,9 @@
 
 ---
 
+## v0.2.2 - December 2, 2025
+- Add Layout for the Project Items
+
 ## v0.2.1 - November 20, 2025
 - Add Other Skills
 
