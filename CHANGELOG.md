@@ -2,6 +2,9 @@
 
 ---
 
+## v0.3.0 - December 30, 2025
+- Complete Content for Projects
+
 ## v0.2.2 - December 2, 2025
 - Add Layout for the Project Items
 

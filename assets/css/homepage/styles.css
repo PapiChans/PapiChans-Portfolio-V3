@@ -98,6 +98,10 @@ body.light {
     letter-spacing: .1px;
 }
 
+.text-hyperlink:hover {
+    color: var(--text-clr-hover);
+}
+
 /*Spaces*/
 .mb-05 {
     margin-bottom: 0.5rem;
@@ -534,14 +538,35 @@ PROJECT CONTENT RELATED
     width: 100%;
     background-color: var(--second-card-clr);
     border-radius: 5px;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.2s ease-in-out;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .project-item:hover {
     transform: scale(0.98);
 }
 
+.project-item-image-area {
+    height: 100px;
+    width: 100%;
+    background-color: var(--background-clr);
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.project-item-image {
+    height: 100%;
+}
+
+.project-item-content-area {
+    height: auto;
+    width: 100%;
+}
 
 @media only screen and (max-width: 768px) {
 
