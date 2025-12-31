@@ -87,7 +87,6 @@ body.light {
 .text-center {
     text-align: center;
 }
-
 .text-end {
     text-align: end;
 }
@@ -568,6 +567,68 @@ PROJECT CONTENT RELATED
     width: 100%;
 }
 
+/* 
+===========================
+OTHER CONTENT RELATED
+=========================== 
+*/
+
+.other-blog-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.other-blog-item {
+    height: 350px;
+    width: 100%;
+    background-color: var(--main-card-clr);
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.other-blog-item:hover {
+    background-color: var(--background-clr);
+}
+
+.other-blog-item-image-area {
+    height: 200px;
+    width: 100%;
+    background-color: var(--background-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.other-blog-item-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.other-blog-item-content-area {
+    height: auto;
+    width: 100%;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--main-card-clr);
+    margin-top: 1rem;
+}
+
 @media only screen and (max-width: 768px) {
 
     /* Navbar */
@@ -715,6 +776,16 @@ PROJECT CONTENT RELATED
     .project-area {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* 
+    ===========================
+    OTHER CONTENT RELATED
+    =========================== 
+    */
+
+    .other-blog-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -766,5 +837,17 @@ PROJECT CONTENT RELATED
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* 
+    ===========================
+    OTHER CONTENT RELATED
+    =========================== 
+    */
 
+    .other-blog-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .other-blog-item-image-area {
+        height: 170px;
+    }
 }

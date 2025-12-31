@@ -2,6 +2,11 @@
 
 ---
 
+## v1.0.0 - December 31, 2025
+- Complete Content for Others
+- Remove Plan.MD
+- Official Declaration the that Portfolio is finished
+
 ## v0.3.0 - December 30, 2025
 - Complete Content for Projects
 
