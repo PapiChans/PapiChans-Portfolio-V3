@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Outfit';
-    src: url('/assets/fonts/Outfit/Outfit-Regular.ttf'),
-        url('/assets/fonts/Outfit/Outfit-Light.ttf'),
-        url('/assets/fonts/Outfit/Outfit-Medium.ttf'),
-        url('/assets/fonts/Outfit/Outfit-SemiBold.ttf'),
-        url('/assets/fonts/Outfit/Outfit-Bold.ttf'),
-        url('/assets/fonts/Outfit/Outfit-ExtraBold.ttf');
+    src: url('assets/fonts/Outfit/Outfit-Regular.ttf'),
+        url('assets/fonts/Outfit/Outfit-Light.ttf'),
+        url('assets/fonts/Outfit/Outfit-Medium.ttf'),
+        url('assets/fonts/Outfit/Outfit-SemiBold.ttf'),
+        url('assets/fonts/Outfit/Outfit-Bold.ttf'),
+        url('assets/fonts/Outfit/Outfit-ExtraBold.ttf');
 }
 
 * {
@@ -305,7 +305,7 @@ HOME CONTENT RELATED
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
     z-index: 1;
 
-    background-image: url('/assets/images/content/profile.jpg');
+    background-image: url('assets/images/content/profile.jpg');
     background-size: cover;
     background-position: center;
 }
