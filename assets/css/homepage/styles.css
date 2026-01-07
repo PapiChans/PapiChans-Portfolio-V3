@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Outfit';
-    src: url('../fonts/Outfit/Outfit-Regular.ttf'),
-        url('../fonts/Outfit/Outfit-Light.ttf'),
-        url('../fonts/Outfit/Outfit-Medium.ttf'),
-        url('../fonts/Outfit/Outfit-SemiBold.ttf'),
-        url('../fonts/Outfit/Outfit-Bold.ttf'),
-        url('../fonts/Outfit/Outfit-ExtraBold.ttf');
+    src: url('../../fonts/Outfit/Outfit-Regular.ttf'),
+        url('../../fonts/Outfit/Outfit-Light.ttf'),
+        url('../../fonts/Outfit/Outfit-Medium.ttf'),
+        url('../../fonts/Outfit/Outfit-SemiBold.ttf'),
+        url('../../fonts/Outfit/Outfit-Bold.ttf'),
+        url('../../fonts/Outfit/Outfit-ExtraBold.ttf');
 }
 
 * {
@@ -280,7 +280,7 @@ HOME CONTENT RELATED
 .home-cover-photo {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url('../images/content/cover.png');
+    background-image: url('../../images/content/cover.png');
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -305,7 +305,7 @@ HOME CONTENT RELATED
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
     z-index: 1;
 
-    background-image: url('../images/content/profile.jpg');
+    background-image: url('../../images/content/profile.jpg');
     background-size: cover;
     background-position: center;
 }
