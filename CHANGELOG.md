@@ -2,6 +2,9 @@
 
 ---
 
+## v1.0.0.1 - January 6, 2026
+- Fix Not Showing Assets
+
 ## v1.0.0 - December 31, 2025
 - Complete Content for Others
 - Remove Plan.MD
