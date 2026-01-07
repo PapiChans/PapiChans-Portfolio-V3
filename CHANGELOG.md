@@ -2,6 +2,9 @@
 
 ---
 
+## v1.0.0.5 - January 6, 2026
+- Fix Not Showing Assets
+
 ## v1.0.0.4 - January 6, 2026
 - Fix Not Showing Assets
 
