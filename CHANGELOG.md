@@ -2,6 +2,9 @@
 
 ---
 
+## v1.0.0.8 - January 14, 2026
+- Fix The Grid on Projects
+
 ## v1.0.0.7 - January 6, 2026
 - Fix Not Showing Assets
 - 
