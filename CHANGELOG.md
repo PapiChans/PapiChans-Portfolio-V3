@@ -2,6 +2,10 @@
 
 ---
 
+## v1.0.0.9 - June 9, 2026
+- Fix Shuffled Links
+- Add Project Content
+
 ## v1.0.0.8 - January 14, 2026
 - Fix The Grid on Projects
 
